@@ -1,14 +1,25 @@
-RAMA | Sales & Customer Analytics Dashboard
-Business Intelligence portfolio project built with Power BI, Power Query, DAX, and Excel.
-Dashboard language: Persian (Farsi), designed for the business's local users. This README is in English for international portfolio accessibility.
 
-Project overview
-This project analyzes sales and customer activity from RAMA, an operating cosmetics business. The aim was to turn business records into an interactive reporting experience that supports sales monitoring, customer analysis, and performance comparisons across time, regions, and sales representatives.
+# RAMA | Sales & Customer Analytics Dashboard
 
-The report consists of two connected Power BI pages:
-1. Sales Management Dashboard — an overview of sales performance and operational KPIs.
-2. Customer & Sales Analysis — a comparison of customer activity and sales performance across Persian calendar years 1402 and 1403.
-Business questions
+**Business Intelligence portfolio project** built with **Power BI, Power Query, DAX, and Excel**.
+
+> **Dashboard language:** Persian (Farsi), designed for the business's local users. This README is in English for international portfolio accessibility.
+
+## Project Overview
+
+This project analyzes sales and customer activity from **RAMA**, an operating cosmetics business.
+
+The aim was to transform real-world business records into an interactive reporting solution that supports sales monitoring, customer analysis, and performance comparisons across time, regions, and sales representatives.
+
+The report consists of **two connected Power BI pages**:
+
+1. **Sales Management Dashboard** — an overview of sales performance and operational KPIs.
+2. **Customer & Sales Analysis** — a comparison of customer activity and sales performance across Persian calendar years **1402 and 1403**.
+
+## Business Questions
+
+The project was developed to address several key business questions:
+
 - How does sales performance change from month to month?
 - Which sales representatives contribute most to revenue?
 - Which provinces account for the largest share of sales?
@@ -16,52 +27,143 @@ Business questions
 - How did sales performance change between 1402 and 1403?
 - Which customers experienced the largest increases or decreases in sales?
 - How many customers were classified as new or lost under the report's business definitions?
-Tools and skills
-Tool / skill	How it was used
-Power BI	Interactive dashboards and visual analytics
-Power Query	Cleaning and reshaping source data for reporting
-DAX	Measures and key performance indicators
-Excel	Source data and initial data preparation
-Data visualization	Time-series, ranking, composition, variance, and customer-comparison views
 
+## Tools & Technologies
 
-Dashboard pages
-1. Sales Management Dashboard
-Provides an overview of:
-- Total sales
-- Average sales per active customer
-- Number of active customers
-- Number of active sales representatives
-- Monthly sales trend
-- Sales contribution by representative
-- Top customers by sales
-- Sales distribution by province
-Interactive filters include year, representative, and province.
+| Tool | Purpose |
+|------|---------|
+| Power BI | Interactive dashboard development and data visualization |
+| Power Query | Data cleaning, transformation, and preparation |
+| DAX | KPI calculations and analytical measures |
+| Microsoft Excel | Source data management and initial preparation |
+| Data Visualization | Sales trends, comparisons, rankings, and customer analysis |
 
-2. Customer & Sales Analysis
-Focuses on performance changes between years 1402 and 1403, including:
-- Sales totals by year and the sales growth rate
-- New and lost customer counts
-- Side-by-side customer sales comparisons
-- Customers with the largest sales increases and decreases
-- A customer-level scatter plot comparing sales across years
-Interactive filters include representative and province.
+## Dashboard Pages
 
-Analytical approach
-1. Understand reporting needs: identify the sales and customer questions the business needs to answer.
-2. Prepare the data: review the source records, standardize relevant fields, and reshape the dataset in Power Query for analysis.
-3. Create metrics: develop Power BI measures for sales, customer counts, averages, and year-over-year comparisons.
-4. Design the report: build interactive views for sales monitoring and customer performance analysis.
-5. Review the results: inspect KPI consistency, filters, chart labels, and business interpretation before publication.
-Key capabilities demonstrated
-- Working with real operational business data rather than a tutorial dataset
-- Transforming business questions into measurable KPIs
-- Comparing sales across Persian calendar years
-- Identifying high-value customers and changes in customer purchasing behavior
-- Communicating findings through interactive Power BI dashboards tailored to Persian-speaking users
-Data privacy and availability
-The original operational data is not public. Customer identities, contact information, and confidential business figures must not be shared. Only privacy-reviewed screenshots should be committed to this repository. The original Excel source files and any .pbix file containing sensitive imported data are intentionally excluded unless a safe, anonymized version is prepared.
-Notes
-- The dashboard uses the Persian (Solar Hijri) calendar.
-- Screenshots should preserve Persian labels as they appeared in the report. Their explanations are provided in English here.
-- Any reported business results should be independently checked against the original data and current filter context before being cited publicly.
+### 1. Sales Management Dashboard
+
+The Sales Management Dashboard provides an overview of business performance through key indicators and interactive visualizations.
+
+**Key Performance Indicators:**
+- Total Sales
+- Average Sales per Active Customer
+- Active Customers
+- Active Sales Representatives
+
+**Visualizations:**
+- Monthly Sales Trend
+- Sales Contribution by Representative
+- Top 10 Customers by Sales
+- Sales Distribution by Province
+
+**Interactive Filters:**
+- Year
+- Sales Representative
+- Province
+
+![Sales Management Dashboard](screenshots/sales-management.png)
+
+### 2. Customer & Sales Analysis
+
+The Customer & Sales Analysis dashboard focuses on understanding customer behavior and evaluating sales performance between Persian calendar years 1402 and 1403.
+
+**Key Performance Indicators:**
+- Sales in 1402
+- Sales in 1403
+- Sales Growth Rate
+- New Customers
+- Lost Customers
+
+**Visualizations:**
+- Customer Sales Comparison Across Years
+- Top 10 Customers by Sales Growth
+- Top 10 Customers by Sales Decline
+- Customer Performance Scatter Plot
+
+**Interactive Filters:**
+- Sales Representative
+- Province
+
+![Customer & Sales Analysis](screenshots/customer-sales-analysis.png)
+
+## Analytical Approach
+
+### 1. Understanding Business Requirements
+
+Identified the key business questions and performance indicators required for monitoring sales and analyzing customer activity.
+
+### 2. Data Cleaning & Transformation
+
+- Reviewed and prepared Excel source datasets.
+- Cleaned and standardized relevant fields.
+- Reshaped sales data using Power Query.
+- Prepared structured datasets for reporting and analysis.
+
+### 3. KPI Development
+
+Developed analytical measures using DAX to evaluate:
+
+- Sales performance
+- Customer activity
+- Average customer sales
+- Sales growth
+- Year-over-year performance
+
+### 4. Dashboard Development
+
+Designed two interactive Power BI dashboard pages to support:
+
+- Sales performance monitoring
+- Customer behavior analysis
+- Sales representative evaluation
+- Regional sales analysis
+- Year-over-year comparisons
+
+### 5. Performance Analysis
+
+Used interactive visualizations to identify:
+
+- High-value customers
+- Sales performance trends
+- Customer purchasing changes
+- Sales growth and decline
+- Differences in regional and representative performance
+
+## Key Skills Demonstrated
+
+- Real-World Data Analysis
+- Business Intelligence
+- Data Cleaning & Transformation
+- Power Query
+- DAX Measures
+- KPI Development
+- Sales Analytics
+- Customer Analytics
+- Data Visualization
+- Interactive Dashboard Design
+- Business Reporting
+
+## Data Privacy
+
+This project was developed using real operational business data.
+
+To protect customer privacy and confidential business information, the original datasets are not publicly available.
+
+Only privacy-reviewed dashboard screenshots are intended for publication.
+
+The original Excel datasets and Power BI files containing sensitive information are excluded unless anonymized versions are prepared.
+
+## Additional Notes
+
+- The dashboard was developed in **Persian (Farsi)** for local business users.
+- The analysis follows the **Persian (Solar Hijri) calendar**.
+- Dashboard documentation is provided in English for international accessibility.
+- Business figures and analytical results should be verified against the original data and filter context before public reporting.
+
+---
+
+**Project Type:** Real-World Business Intelligence Project
+
+**Business Domain:** Cosmetics & Beauty Retail
+
+**Tools:** Power BI | Power Query | DAX | Excel
