@@ -61,8 +61,8 @@ The Sales Management Dashboard provides an overview of business performance thro
 - Sales Representative
 - Province
 
-![Sales Management Dashboard](screenshots/sales-management.png)
-
+[![Sales Management Dashboard](screenshots/sales-management.png)
+](https://github.com/ali-khanbeigi/Rama-Sales-Customer-Analytics/blob/main/Screenshots/customer-sales-analysis.jpg?raw=true)
 ### 2. Customer & Sales Analysis
 
 The Customer & Sales Analysis dashboard focuses on understanding customer behavior and evaluating sales performance between Persian calendar years 1402 and 1403.
