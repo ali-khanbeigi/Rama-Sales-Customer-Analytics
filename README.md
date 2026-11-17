@@ -83,7 +83,8 @@ The Customer & Sales Analysis dashboard focuses on understanding customer behavi
 - Sales Representative
 - Province
 
-![Customer & Sales Analysis](screenshots/customer-sales-analysis.png)
+![Customer & Sales Analysis](Screenshots/customer-sales-analysis.jpg)
+
 ## Analytical Approach
 
 ### 1. Understanding Business Requirements
