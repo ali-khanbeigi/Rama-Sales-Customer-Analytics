@@ -61,7 +61,7 @@ The Sales Management Dashboard provides an overview of business performance thro
 - Sales Representative
 - Province
 
-![Sales Management Dashboard]([screenshots/sales-management.png](https://github.com/ali-khanbeigi/Rama-Sales-Customer-Analytics/blob/main/Screenshots/customer-sales-analysis.jpg?raw=true))
+![sales-management.jpg]([screenshots/sales-management.png](https://github.com/ali-khanbeigi/Rama-Sales-Customer-Analytics/blob/main/Screenshots/customer-sales-analysis.jpg?raw=true))
 
 ### 2. Customer & Sales Analysis
 
